@@ -1,0 +1,29 @@
+Get profile 
+
+endpoint : /profiles/:id
+method   : GET
+
+
+update profile
+
+endpoint : /profile/:id?_method=PUT
+method   : POST
+payload : avatar ,
+          name   ,
+          email  , 
+          date_of_birth
+          phone , 
+          gender , 
+          about , 
+          state , 
+          city , 
+          address , 
+       
+
+change password
+
+endpoint : /change-password
+method   : POST
+payload : old_password , 
+          new_password , 
+          confirm_password

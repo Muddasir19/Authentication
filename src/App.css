@@ -1,0 +1,140 @@
+.mainContainer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 64px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .resultContainer,
+  .historyItem {
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .historyContainer {
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-grow: 5;
+    justify-content: flex-start;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .inputContainer > .errorLabel {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .inputBox {
+    height: 48px;
+    width: 400px;
+    font-size: large;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding-left: 8px;
+  }
+
+  .header {
+    margin-top: 20px;
+    flex-direction: row;
+    display: flex;
+    margin-left: 30px;
+    gap: 3px;
+    width: fit-content;
+  }
+  .btn{
+    border-radius: 10px;
+    height: 50px;
+    font-size: larger;
+    color: brown;
+    background-color: azure;
+  }
+  .profileContainer {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .titleProfile{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .Items{
+    margin-left: 20px;
+    border-style: groove;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .profileItem{
+    border-style: inset;
+    border-style: outset;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: auto;
+    align-items: center;
+  }
+  .title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+  }
+  .value{
+    font-size: 16px;
+    width: 70%;
+  }
+  .area{
+    height: 80px;
+  }
+  .address{
+    height: 50px;
+  }
+  .submit{
+    margin-top: 10px;
+    width: 100%;
+  }
+  .inputB{
+    padding: 4px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+  }
